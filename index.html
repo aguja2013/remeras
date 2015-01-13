@@ -1,0 +1,101 @@
+﻿
+
+
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  
+  <!-- disable zooming -->
+  <meta name="viewport" content="initial-scale=1.0, user-scalable=0" />
+  
+  <title>Carousel 1 &middot; Intro to CSS 3D transforms &rsaquo; Examples</title>
+   
+  <link rel="stylesheet" href="css/estilos.css" media="screen" />
+  <link rel="stylesheet" href="css/style.css" media="screen" />
+  <link rel="stylesheet" href="css/carrusel-css.css" media="screen" />
+ 
+
+
+    <style media="screen">
+
+   
+
+  </style>
+
+</head>
+<body>
+  <div class="puntos_bg"> 	</div> 
+  <header><span class="icon-woman_power">
+    </span><h1 id="h1"><span class="revolution"> REVOLUTION </h1></span><span class="remeras">remeras.</span> <span class="empr-cc"><em>acá</em> facebook</span></header>
+	
+	<div class="entrar">
+		<p class="entrar-p">Entrar</p>
+	</div>
+	
+	<video id="video1" loop autoplay preload poster="poster.png">		
+		<source src="video/remeras.mp4" type="video/mp4" />
+        <source src="video/remeras.webm" type="video/webm" />
+        <source src="video/remeras.wmv" type="video/ogg" />	
+		</video>
+  <section class="container">
+    <div id="carousel">
+      <figure><img src="img/remeras.png" alt=""></figure>
+      <figure><img src="img/remera2.png" alt=""></figure>
+      <figure><img src="img/remera3.png" alt=""></figure>
+      <figure><img src="img/remera4.png" alt=""></figure>
+      <figure><img src="img/remera5.png" alt=""></figure>
+      <figure><img src="img/remera6.png" alt=""></figure>
+      <figure><img src="img/remera7.png" alt=""></figure>
+      <figure><img src="img/remera8.png" alt=""></figure>
+      <figure><img src="img/remera9.png" alt=""></figure>
+     
+    </div>
+  </section>
+
+  <section id="options">
+    <p id="navigation">
+      <button id="previous" data-increment="-1">Anterior</button>
+      <button id="next" data-increment="1">Siguiente</button>
+    </p>
+
+  </section>
+
+  <script src="js/utils.js"></script>
+  <script>
+    var init = function() {
+      var carousel = document.getElementById('carousel'),
+          navButtons = document.querySelectorAll('#navigation button'),
+          panelCount = carousel.children.length,
+          transformProp = Modernizr.prefixed('transform'),
+          theta = 0,
+
+          onNavButtonClick = function( event ){
+            var increment = parseInt( event.target.getAttribute('data-increment') );
+            theta += ( 360 / panelCount ) * increment * -1;
+            carousel.style[ transformProp ] = 'translateZ( -577px ) rotateY(' + theta + 'deg)';
+          };
+
+      for (var i=0; i < 2; i++) {
+        navButtons[i].addEventListener( 'click', onNavButtonClick, false);
+      }
+
+    };
+
+    window.addEventListener( 'DOMContentLoaded', init, false);
+  </script>
+
+
+  <p id="disclaimer">Sorry, your browser does not support CSS 3D transforms. This example may be broken.</p>
+
+  <footer>
+  <p><a href="../">REVOLUTION</a> Remeras Revolucionarias</p>
+  <p>Córdoba, Argentina</a>.
+      <a href="http://desandro.mit-license.org/">Contacto</a>.</p>
+  <p>Desarrollado por <a href="https://github.com/desandro/3dtransforms/issues/"> Pandawebs</a></p>
+</footer>
+<script src="http://code.jquery.com/jquery-2.1.1.min.js"></script>
+	<script src="js/javascript.js"></script>
+
+</body>
+</html>
