@@ -4,11 +4,16 @@ Date:   Wed Jan 14 09:13:21 2015 -0300
 
     nuevo titulo
 
-commit b0f3c5ec95c8aecc51356700a1e08d09e000fe22
+
+
+commit
+b0f3c5ec95c8aecc51356700a1e08d09e000fe22
 Author: Agustin Palmieri <aguja13@hotmail.com>
 Date:   Wed Jan 14 07:58:31 2015 -0300
 
     nueva prueba gitignore una mas
+
+
 
 commit d0302684334a214013e939cad78d6c0f6c431286
 Author: Agustin Palmieri <aguja13@hotmail.com>
@@ -16,11 +21,15 @@ Date:   Wed Jan 14 07:53:36 2015 -0300
 
     nueva prueba gitignore
 
+
+
 commit 8736b5aa299f7d5a9c5f3aaa94642694ebf09c34
 Author: Agustin Palmieri <aguja13@hotmail.com>
 Date:   Wed Jan 14 07:15:47 2015 -0300
 
     cambio gitignore
+
+
 
 commit bf737f065f21d97a7941e568f88fb008000efd00
 Author: Agustin Palmieri <aguja13@hotmail.com>
@@ -28,11 +37,15 @@ Date:   Wed Jan 14 07:10:22 2015 -0300
 
     prueba gitignore
 
+
+
 commit 31e9dde58840b8f0206467041b029d3ae3eedb60
 Author: Agustin Palmieri <aguja13@hotmail.com>
 Date:   Tue Jan 13 09:49:48 2015 -0300
 
     subiendo gitignore
+
+
 
 commit 7cc914fc0221b9ee13245693e216b2b51b64df84
 Author: Agustin Palmieri <aguja13@hotmail.com>
