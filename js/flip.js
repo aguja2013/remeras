@@ -23,6 +23,36 @@
 	$btnCom2    = $('.comprar2'),
 	$btnCom3    = $('.comprar3');
 	
+$min1.click(function () {
+    $("#test1").val("Puño de revolución");   
+});
+$min2.click(function () {   
+    $("#test1").val("Lenin");    
+});
+$min3.click(function () {   
+    $("#test1").val("Lenin2");    
+});
+$min4.click(function () {   
+    $("#test1").val("Lenin3");    
+});
+$min5.click(function () {   
+    $("#test1").val("mujer che");    
+});
+$min6.click(function () {   
+    $("#test1").val("revolución de la mujer");    
+});
+$('.X-S').click(function () {   
+    $("#test2").val("Talle X-S");    
+});
+$('.s').click(function () {   
+    $("#test2").val("Talle S");    
+});
+$('.m').click(function () {   
+    $("#test2").val("Talle M");    
+});
+$('.l').click(function () {   
+    $("#test2").val("Talle L");    
+});
 	
 function apareceRemera1() {
 		$rem1.slideDown(500);

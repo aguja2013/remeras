@@ -224,9 +224,9 @@ body.doc { max-width: 900px; }
 .small, .medium, .large {
 	display: none;
 }
-.comprar1, .comprar2,.comprar3 {
+/* .comprar1, .comprar2,.comprar3 {
 	display: none;
-}
+} */
 
 @media screen and (min-width: 768px) {
 
