@@ -212,7 +212,7 @@ body.doc { max-width: 900px; }
 .back {
 	margin-top: 17px
 }
-#rem-2, #rem-3, #rem-4, #rem-5, #rem-6 {
+.rem-2, .rem-3, .rem-4, .rem-5, .rem-6 {
 	display: none;
 }
 #fig-1, #fig-2, #fig-3, #fig-4, #fig-5, #fig-6 {
@@ -227,7 +227,53 @@ body.doc { max-width: 900px; }
 /* .comprar1, .comprar2,.comprar3 {
 	display: none;
 } */
-
+.oculto {
+	border: 2px solid #fff;
+	margin: 1.5rem 0;
+	background: orange;
+}
+.oculto input {
+	background: transparent;
+	border: 0;
+	color: white;
+	font-size: 1.8rem;
+	text-align: center;
+	text-shadow: 2px 1px 0px rgba(0, 0, 0, 1);
+	width: 49%;
+	
+}
+.oculto input:first-child-child {	
+	text-align: right;
+}
+.fuente-mas {
+	border: 0;
+	margin-bottom: 5.5rem;
+	background: transparent;
+	display: inline-block;
+	width: 100%;
+}
+.fuente-mas input {
+	font-size: 3.5rem;
+	display: block;
+	background: transparent;
+	width: 100%;
+}
+.comprar2 {
+	padding: .5rem 0;
+}
+.comprar3 {
+	background: orange;
+	color: white;
+	font-size: 2.5rem;
+	padding: .5rem;
+	text-decoration: underline;
+	margin-top: 2rem;
+	margin-left:3rem;
+	vertical-align: top;
+}
+.testt {
+	margin-bottom: 4rem;
+}
 @media screen and (min-width: 768px) {
 
   body.doc #content {

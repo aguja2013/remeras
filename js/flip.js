@@ -1,9 +1,9 @@
-﻿var $rem1     = $('#rem-1'),
-	$rem2     = $('#rem-2'),
-	$rem3     = $('#rem-3'),
-	$rem4     = $('#rem-4'),
-	$rem5     = $('#rem-5'),
-	$rem6     = $('#rem-6'),
+﻿var $rem1     = $('.rem-1'),
+	$rem2     = $('.rem-2'),
+	$rem3     = $('.rem-3'),
+	$rem4     = $('.rem-4'),
+	$rem5     = $('.rem-5'),
+	$rem6     = $('.rem-6'),
 	$min1     = $('#fig-1'),
 	$min2     = $('#fig-2'),
 	$min3     = $('#fig-3'),
@@ -24,34 +24,34 @@
 	$btnCom3    = $('.comprar3');
 	
 $min1.click(function () {
-    $("#test1").val("Puño de revolución");   
+    $(".test1").val("Puño de revolución");   
 });
 $min2.click(function () {   
-    $("#test1").val("Lenin");    
+    $(".test1").val("Lenin");    
 });
 $min3.click(function () {   
-    $("#test1").val("Lenin2");    
+    $(".test1").val("Lenin2");    
 });
 $min4.click(function () {   
-    $("#test1").val("Lenin3");    
+    $(".test1").val("Lenin3");    
 });
 $min5.click(function () {   
-    $("#test1").val("mujer che");    
+    $(".test1").val("mujer che");    
 });
 $min6.click(function () {   
-    $("#test1").val("revolución de la mujer");    
+    $(".test1").val("revolución de la mujer");    
 });
 $('.X-S').click(function () {   
-    $("#test2").val("Talle X-S");    
+    $(".test2").val("Talle X-S    $200");    
 });
 $('.s').click(function () {   
-    $("#test2").val("Talle S");    
+    $(".test2").val("Talle S    $200");    
 });
 $('.m').click(function () {   
-    $("#test2").val("Talle M");    
+    $(".test2").val("Talle M    $200");    
 });
 $('.l').click(function () {   
-    $("#test2").val("Talle L");    
+    $(".test2").val("Talle L    $200");    
 });
 	
 function apareceRemera1() {

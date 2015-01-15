@@ -38,7 +38,7 @@ a:hover {
 button {
   font-size: 36px;
   -webkit-appearance: push-button;
-  width: 35%
+  width: 45%
 }
 
 footer {
@@ -315,6 +315,34 @@ code .nd { color: #9FAD7E; } /* CSS pseudo selector */
 	text-align: center;
 	width: 100%
 }
+.confirmacion {
+	/* display: none; */
+	background: #6D8AFC;
+	padding: 0 2rem;
+	position: fixed;
+	top: 5rem;
+	width: 100%;
+	z-index: 200;
+}
+.confirmacion figure{
+	
+	
+	
+}
+
+.confirmacion-frente, .confirmacion-atras, form.fuente-mas {
+	display: inline-block;
+	width: 25%;
+	vertical-align: top;
+}
+form.fuente-mas {
+	
+	width: 45%;
+}
+/* .confirmacion figure: last-child {
+	display: inline;
+
+} */
 .eleccion, .remera {
 	width: 45%;
 	display: inline-block;
