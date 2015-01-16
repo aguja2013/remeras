@@ -2,8 +2,7 @@
        width: 100%;
       /*height: 260px; */
       position: relative;
-      margin: 0 auto 40px;
-      border: 1px solid #CCC;
+      margin: 0 auto 40px;      
       -webkit-perspective: 800px;
          -moz-perspective: 800px;
            -o-perspective: 800px;
@@ -246,16 +245,16 @@ body.doc { max-width: 900px; }
 	text-align: right;
 }
 .fuente-mas {
-	border: 0;
-	margin-bottom: 5.5rem;
 	background: transparent;
+	border: 0;
 	display: inline-block;
+	margin-bottom: 5.5rem;
 	width: 100%;
 }
 .fuente-mas input {
-	font-size: 3.5rem;
-	display: block;
 	background: transparent;
+	display: block;
+	font-size: 3.5rem;
 	width: 100%;
 }
 .comprar2 {
@@ -265,11 +264,12 @@ body.doc { max-width: 900px; }
 	background: orange;
 	color: white;
 	font-size: 2.5rem;
+	margin-left:3rem;
+	margin-top: 2rem;
 	padding: .5rem;
 	text-decoration: underline;
-	margin-top: 2rem;
-	margin-left:3rem;
 	vertical-align: top;
+	width: 50%;
 }
 .testt {
 	margin-bottom: 4rem;

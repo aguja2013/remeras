@@ -36,9 +36,10 @@ a:hover {
 }
 
 button {
-  font-size: 36px;
   -webkit-appearance: push-button;
-  width: 45%
+  cursor: pointer;
+  font-size: 36px;
+  width: 35%;
 }
 
 footer {
@@ -466,7 +467,7 @@ nota-btn {
 }
 
 header {
-	text-align: center;
+	padding-left: 4rem;
 	height: 75px;
 	color: #fff;
 }
@@ -474,6 +475,11 @@ header {
 	display: inline-block;
 	vertical-align: middle;
 	
+}
+
+.entrar-p a {
+	color: white;
+	background: transparent;
 }
 /* .revolution {
 	line-height: 37px;

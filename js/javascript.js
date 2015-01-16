@@ -8,7 +8,7 @@ $(function() {
 		setInterval(function() {
 		setTimeout(function() {		
 		$btnEntrar.fadeTo(1000, 0.7).fadeTo(1000, 1.0);
-        },12000);  
+        },9000);  
 },200);
 });
 
