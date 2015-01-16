@@ -19,9 +19,10 @@
 	$small    = $('.small'),
 	$medium   = $('.medium'),
 	$large    = $('.large'),
-	$btnCom1    = $('.comprar1'),
-	$btnCom2    = $('.comprar2'),
-	$btnCom3    = $('.comprar3');
+	$btnCom1  = $('.comprar1'),
+	$btnCom2  = $('.comprar2'),
+	$btnCom3  = $('.comprar3'),
+	$conf     = $('.confirmacion');
 	
 $min1.click(function () {
     $(".test1").val("Puño de revolución");   
@@ -141,7 +142,10 @@ function apareceL() {
 // function condicion() {
 		// if
 // };
-
+function mostrarDetalle() {
+		
+		$conf.slideToggle(500);	
+};
 
 $min1.click( apareceRemera1 );
 $min2.click( apareceRemera2 );
@@ -152,8 +156,9 @@ $min6.click( apareceRemera6 );
 $s.click( apareceS );
 $m.click( apareceM );
 $l.click( apareceL );
-$btnCom1.click( condicion );
-
+// $btnCom1.click( condicion );
+$btnCom2.click( mostrarDetalle );
+$('.close').click( mostrarDetalle );
 
 
 

@@ -304,6 +304,11 @@ code .nd { color: #9FAD7E; } /* CSS pseudo selector */
 	visibility: visible;
 	
 }
+.close {
+	position: absolute;
+	right: 5rem;
+	bottom: 0;
+}
 .comprar, .comprar2 {
 	background: #6D8AFC;
 	border: 0;
@@ -316,7 +321,7 @@ code .nd { color: #9FAD7E; } /* CSS pseudo selector */
 	width: 100%
 }
 .confirmacion {
-	/* display: none; */
+	display: none;
 	background: #6D8AFC;
 	padding: 0 2rem;
 	position: fixed;
