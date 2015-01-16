@@ -484,3 +484,62 @@ header {
 /* .revolution {
 	line-height: 37px;
 } */
+.emprende {
+	position: absolute;
+	bottom: 0;
+	right: 1rem;
+	
+}
+.mapa {
+	position: relative;
+}
+.mapa, .emprende-p {
+	display: inline-block;
+	vertical-align: top;
+	margin-left: .7rem;
+}
+.emprende-p strong {
+	color: #999;
+	padding-bottom: .5rem;
+	border-bottom: 1px solid #fff;
+}
+.circle {
+		background: red;
+		border: 1px solid #666;
+		border-radius: 50%;
+		height: 5px;
+		position: absolute;
+		right: 1.3rem;
+		bottom: 2.9rem;
+		width: 5px;
+		-webkit-animation: 1s circle infinite;
+-moz-animation: 1s circle infinite;
+-o-animation: 1s circle infinite;
+-ms-animation: 1s circle infinite;
+		animation: 1s circle infinite;
+}
+@-webkit-keyframes state {
+	0% // from
+		width 0
+	100% // to
+		width 100%
+}
+@-webkit-keyframes circle {
+	0%   {transform: scale(1)}
+	100% {transform: scale(2);
+		opacity: 0}
+		
+		}
+		
+@keyframes state {
+	0% // from
+		width 0
+	100% // to
+		width 100%
+}
+@keyframes circle {
+	0%   {transform: scale(1)}
+	100% {transform: scale(2);
+		opacity: 0}
+		
+		}
