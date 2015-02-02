@@ -211,12 +211,8 @@ body.doc { max-width: 900px; }
 .back {
 	margin-top: 17px
 }
-.rem-2, .rem-3, .rem-4, .rem-5, .rem-6 {
-	display: none;
-}
-#fig-1, #fig-2, #fig-3, #fig-4, #fig-5, #fig-6 {
-	cursor: pointer;
-}
+
+
 .modelo1, .modelo2, .modelo3 {
 	display: none;
 }
