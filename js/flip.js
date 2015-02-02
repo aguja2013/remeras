@@ -43,22 +43,49 @@
 	$conf     = $('.confirmacion');
 	
 $min1.click(function () {
-    $(".test1").val("Puño de revolución");   
+    $(".test1").val("Hombre Revolución");   
 });
 $min2.click(function () {   
-    $(".test1").val("Lenin");    
+    $(".test1").val("Mujeres Revolución");    
 });
 $min3.click(function () {   
-    $(".test1").val("Lenin2");    
+    $(".test1").val("Fidel Castro");    
 });
 $min4.click(function () {   
-    $(".test1").val("Lenin3");    
+    $(".test1").val("Karl Marx");    
 });
 $min5.click(function () {   
-    $(".test1").val("mujer che");    
+    $(".test1").val("Revolución");    
 });
 $min6.click(function () {   
-    $(".test1").val("revolución de la mujer");    
+    $(".test1").val("Mujer Revolucionaria");    
+});
+$min7.click(function () {   
+    $(".test1").val("Vladímir Ilich Lenin");    
+});
+$min8.click(function () {   
+    $(".test1").val("Martillo Revolución");    
+});
+$min9.click(function () {   
+    $(".test1").val("Símbolo Revolución");    
+});
+$min10.click(function () {   
+    $(".test1").val("V de Vendetta");    
+});
+$min11.click(function () {   
+    $(".test1").val("Puño Revolución");    
+});
+$min12.click(function () {   
+    $(".test1").val("Ernesto Guevara");    
+});
+$min13.click(function () {   
+    $(".test1").val("Revolución de la mujer");    
+});
+$min14.click(function () {   
+    $(".test1").val("Tania");    
+});
+$min15.click(function () {   
+    $(".test1").val("Marx-Engels-Lenin");    
 });
 $('.X-S').click(function () {   
     $(".test2").val("Talle X-S    $200");    
@@ -187,6 +214,7 @@ function apareceRemera7() {
 		$rem2.css('display','none' );
 		$rem3.css('display','none' );
 		$rem4.css('display','none' );
+		$rem5.css('display','none' );
 		$rem6.css('display','none' );		
 		$rem8.css('display','none' );
 		$rem9.css('display','none' );
@@ -203,6 +231,7 @@ function apareceRemera8() {
 		$rem2.css('display','none' );
 		$rem3.css('display','none' );
 		$rem4.css('display','none' );
+		$rem5.css('display','none' );
 		$rem6.css('display','none' );
 		$rem7.css('display','none' );		
 		$rem9.css('display','none' );
@@ -219,6 +248,7 @@ function apareceRemera9() {
 		$rem2.css('display','none' );
 		$rem3.css('display','none' );
 		$rem4.css('display','none' );
+		$rem5.css('display','none' );
 		$rem6.css('display','none' );
 		$rem7.css('display','none' );
 		$rem8.css('display','none' );		
@@ -235,6 +265,7 @@ function apareceRemera10() {
 		$rem2.css('display','none' );
 		$rem3.css('display','none' );
 		$rem4.css('display','none' );
+		$rem5.css('display','none' );
 		$rem6.css('display','none' );
 		$rem7.css('display','none' );
 		$rem8.css('display','none' );
@@ -251,6 +282,7 @@ function apareceRemera11() {
 		$rem2.css('display','none' );
 		$rem3.css('display','none' );
 		$rem4.css('display','none' );
+		$rem5.css('display','none' );
 		$rem6.css('display','none' );
 		$rem7.css('display','none' );
 		$rem8.css('display','none' );
@@ -267,6 +299,7 @@ function apareceRemera12() {
 		$rem2.css('display','none' );
 		$rem3.css('display','none' );
 		$rem4.css('display','none' );
+		$rem5.css('display','none' );
 		$rem6.css('display','none' );
 		$rem7.css('display','none' );
 		$rem8.css('display','none' );
@@ -283,6 +316,7 @@ function apareceRemera13() {
 		$rem2.css('display','none' );
 		$rem3.css('display','none' );
 		$rem4.css('display','none' );
+		$rem5.css('display','none' );
 		$rem6.css('display','none' );
 		$rem7.css('display','none' );
 		$rem8.css('display','none' );
@@ -299,6 +333,7 @@ function apareceRemera14() {
 		$rem2.css('display','none' );
 		$rem3.css('display','none' );
 		$rem4.css('display','none' );
+		$rem5.css('display','none' );
 		$rem6.css('display','none' );
 		$rem7.css('display','none' );
 		$rem8.css('display','none' );
@@ -315,6 +350,7 @@ function apareceRemera15() {
 		$rem2.css('display','none' );
 		$rem3.css('display','none' );
 		$rem4.css('display','none' );
+		$rem5.css('display','none' );
 		$rem6.css('display','none' );
 		$rem7.css('display','none' );
 		$rem8.css('display','none' );

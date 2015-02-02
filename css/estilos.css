@@ -168,7 +168,12 @@ body.doc { max-width: 900px; }
 	
 }
 
-
+.front {
+	z-index: 200;
+}
+.back {
+	z-index: 201
+}
 
 
 
@@ -332,9 +337,14 @@ code .nd { color: #9FAD7E; } /* CSS pseudo selector */
 	
 }
 .close {
+	background: #000;
+	bottom: .5rem;
+	color: #fff;
+	cursor: pointer;
+	font-weight: 600;
+	padding: .5rem;
 	position: absolute;
 	right: 5rem;
-	bottom: 0;
 }
 .comprar, .comprar2 {
 	background: #6D8AFC;
@@ -470,8 +480,9 @@ nota-btn {
 .talle button {
 	background: #AF4CA0;
 	border: 0;
-	color: #000;
-	font-size: 1.5rem;
+	color: #fff;
+	font-size: 1.8rem;
+	font-weight: 600;
 	margin: 0;
 	padding: 0;
 	width: 22%;
