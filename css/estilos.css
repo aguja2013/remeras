@@ -150,6 +150,31 @@ body.doc { max-width: 900px; }
 
 
 
+.rem-2,
+.rem-3,
+.rem-4,
+.rem-5,
+.rem-6,
+.rem-7,
+.rem-8,
+.rem-9,
+.rem-10,
+.rem-11,
+.rem-12,
+.rem-13,
+.rem-14,
+.rem-15 {
+	display: none;
+	
+}
+
+
+
+
+
+
+
+
 @media screen and (min-width: 768px) {
 
   body.doc #content {
@@ -387,13 +412,13 @@ form.fuente-mas {
 	margin-top: 1rem;
 }
 .estampas .items {
-background: white;
+	background: white;
 	border: 2px dotted #6D8AFC;
+	cursor: pointer;
 	display: inline-block;
-	height: 55px;
-	margin: .2rem;	
+	margin: .3rem;	
 	opacity: 1;
-	width: 76px;	
+		
 }
 .fig {
 	margin-top: .5rem;
