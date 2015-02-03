@@ -155,11 +155,38 @@
 				</div>
 				
 				<form class="oculto fuente-mas" action=""> 
-					<input type="text" class="test1" value=""> 
-					<input type="text" class="test2 testt" value="">
-					<img src="img/pago_seguro.png" alt="">
-					<button class="comprar3">COMPRAR</button>
-				</form>			
+					<input type="text" class="test1" value="" placeholder="Hombre Revolucionario"> 
+					<input type="text" class="test2 testt" value=""  placeholder="Elige Talle!!">
+					<!-- <img src="img/pago_seguro_mercadopago.png" alt="Pago Seguro con Mercadopago"> -->
+					<button type="button" class="comprar3">COMPRAR</button>
+				</form>	
+				
+				
+				<form class="datos-envio" action="contacto.php" method="post">
+				
+					<div class="form-envio">
+					<label for="nombre">Nombre y Apellido:</label><br>
+					 <input id="nombre" type="text" name="nombre" placeholder="Nombre y Apellido" required="" /><br>
+					 <label for="calle">Calle y Número:</label><br>
+					 <input id="calle" type="text" name="calle" placeholder="Calle y Número:" required="" /><br>
+					 <label for="piso">Piso y Dpto:</label><br>
+					 <input id="piso" type="text" name="piso" placeholder="Piso y Dpto:" required="" /><br>
+					  <label for="postal">Código Postal:</label><br>
+					 <input id="postal" type="text" name="postal" placeholder="Código Postal:" required="" />
+					 </div>
+					 <div class="form-envio">
+					  <label for="localidad">Localidad:</label><br>
+					 <input id="localidad" type="text" name="localidad" placeholder="Localidad:" required="" /><br>
+					  <label for="provincia">Provincia:</label><br>
+					 <input id="provincia" type="text" name="provincia" placeholder="Provincia:" required="" /><br>
+					 <label for="email">Email:</label><br>
+					 <input id="email" type="email" name="email" placeholder="ejemplo@correo.com" required="" /><br><br>
+					
+					 <input id="submit" type="submit" name="submit" value="siguiente" />
+					 </div>
+				</form>
+
+				
 	
 				<span class="close">- Cerrar Ventana<br />- Volver a Elegir</span>
 	

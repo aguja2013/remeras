@@ -377,6 +377,22 @@ code .nd { color: #9FAD7E; } /* CSS pseudo selector */
 	width: 25%;
 	vertical-align: top;
 }
+.datos-envio {
+	background: orange;
+	bottom: 2rem;
+	display: none;
+	position: absolute;
+	right: 14rem;
+}
+.datos-envio input {
+	width: 13rem;
+	margin-bottom: .5rem;
+}
+.form-envio {
+	display: inline-block;
+	vertical-align: top;
+}
+
 form.fuente-mas {
 	
 	width: 45%;

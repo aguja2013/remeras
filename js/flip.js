@@ -392,6 +392,13 @@ function apareceL() {
 		// $rem5.css('display','none' );
 		$large.slideDown(500);	
 };
+
+function formDatosEnvio() {
+		$btnCom3.slideToggle(500);	
+		$('.datos-envio').slideToggle(500);	
+		
+};
+
 // function condicion() {
 		// if
 // };
@@ -399,7 +406,7 @@ function mostrarDetalle() {
 		
 		$conf.slideToggle(500);	
 };
-
+$btnCom3.click( formDatosEnvio );
 $min1.click( apareceRemera1 );
 $min2.click( apareceRemera2 );
 $min3.click( apareceRemera3 );
