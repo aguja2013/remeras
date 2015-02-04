@@ -457,6 +457,13 @@ form.fuente-mas {
 	font-size: 2rem;
 	margin-top: 7rem;
 }
+.mercadopago {
+	display: inline-block;
+	vertical-align: middle;
+	text-align: center;
+	margin-left: 10rem;
+	margin-right: 10rem;
+}
 nota-btn {
 	
 	width: 100%;
@@ -474,6 +481,11 @@ nota-btn {
 .nota-p {
 	color: white;
 	font-size: 1.5rem;
+}
+.pago {
+	color: #fff;
+	background: #25AF18;
+	font-family: 'open sans';
 }
 .puntos_bg {
 	position: fixed;
