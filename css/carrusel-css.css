@@ -3,7 +3,7 @@
       height: 280px;
       position: relative;
       margin: 0 auto 180px;
-      /* border: 1px solid #CCC; */
+    
       -webkit-perspective: 1100px;
          -moz-perspective: 1100px;
            -o-perspective: 1100px;
