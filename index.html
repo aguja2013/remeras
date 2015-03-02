@@ -19,26 +19,39 @@
 </head>
 <body>
   <div class="puntos_bg"> 	</div> 
-  <header><span class="icon-woman_power">
-    </span><h1 id="h1"><span class="revolution"> REVOLUTION </h1></span><span class="remeras">remeras.</span> <span class="empr-cc"><em>Compartí en Facebook</em> <div id="fb-root"></div>
+  <header>
+	<span class="icon-woman_power"></span>
+	<h1 id="h1">
+		<span class="revolution"> REVOLUTION </span>
+	</h1>
+		<span class="remeras">remeras.</span>
+	<nav class="menu">
+		<ul class="menu-ul">
+			<li class="menu-li home-li"><a href="index.hatml" class="menu-a">HOME</a></li>
+			<li class="menu-li"><a href="modelos.html" class="menu-a">TIENDA</a></li>
+			<li class="menu-li"><a href="contacto.html" class="menu-a">CONTACTO</a></li>
+			<li class="menu-li"><a href="" class="menu-a">FACEBOOK</a></li>
+		</ul>
+	</nav>
+		<!-- <span class="empr-cc"><em>Compartí en Facebook</em> 
+		<div id="fb-root"></div>
 <script>(function(d, s, id) {
   var js, fjs = d.getElementsByTagName(s)[0];
   if (d.getElementById(id)) return;
   js = d.createElement(s); js.id = id;
   js.src = "//connect.facebook.net/es_ES/sdk.js#xfbml=1&version=v2.0";
   fjs.parentNode.insertBefore(js, fjs);
-}(document, 'script', 'facebook-jssdk'));</script></span></header>
+}(document, 'script', 'facebook-jssdk'));</script></span> -->
+	</header>
 	
-	<div class="entrar">
-		<p class="entrar-p"><a href="modelos.html">ENTRAR</a></p>
-	</div>
 	
-	<video id="video1" loop autoplay preload>		
+	
+	<video id="video1" class="video" loop autoplay preload>		
 		<source src="video/remeras.mp4" type="video/mp4" />
         <source src="video/remeras.webm" type="video/webm" />
         <source src="video/remeras.wmv" type="video/ogg" />	
-		</video>
-  <section class="container">
+	</video>
+  <section class="container  gde">
     <div id="carousel">
       <figure><img src="img/remeras.png" alt=""></figure>
       <figure><img src="img/remera2.png" alt=""></figure>
@@ -52,7 +65,23 @@
      
     </div>
   </section>
-
+  <section class="container  ch">
+    <div id="carousel2">
+      <figure><img src="img/remeras-ch.png" alt=""></figure>
+      <figure><img src="img/remera2-ch.png" alt=""></figure>
+      <figure><img src="img/remera3-ch.png" alt=""></figure>
+      <figure><img src="img/remera4-ch.png" alt=""></figure>
+      <figure><img src="img/remera5-ch.png" alt=""></figure>
+      <figure><img src="img/remera6-ch.png" alt=""></figure>
+      <figure><img src="img/remera7-ch.png" alt=""></figure>
+      <figure><img src="img/remera8-ch.png" alt=""></figure>
+      <figure><img src="img/remera9-ch.png" alt=""></figure>
+     
+    </div>
+  </section>
+	<a class="entrar-a" href="modelos.html"><div class="entrar">
+		<p class="entrar-p">ENTRAR</p></div></a>
+	
   <section id="options">
     <p id="navigation">
       <button id="previous" data-increment="-1">Anterior</button>
@@ -62,7 +91,7 @@
   </section>
 
   <script src="js/utils.js"></script>
-  <script>
+   <script>
     var init = function() {
       var carousel = document.getElementById('carousel'),
           navButtons = document.querySelectorAll('#navigation button'),
@@ -84,17 +113,39 @@
 
     window.addEventListener( 'DOMContentLoaded', init, false);
   </script>
+  <script>
+    var init = function() {
+      var carousel = document.getElementById('carousel2'),
+          navButtons = document.querySelectorAll('#navigation button'),
+          panelCount = carousel.children.length,
+          transformProp = Modernizr.prefixed('transform'),
+          theta = 0,
+
+          onNavButtonClick = function( event ){
+            var increment = parseInt( event.target.getAttribute('data-increment') );
+            theta += ( 360 / panelCount ) * increment * -1;
+            carousel2.style[ transformProp ] = 'translateZ( -288px ) rotateY(' + theta + 'deg)';
+          };
+
+      for (var i=0; i < 2; i++) {
+        navButtons[i].addEventListener( 'click', onNavButtonClick, false);
+      }
+
+    };
+
+    window.addEventListener( 'DOMContentLoaded', init, false);
+  </script>
 
 
   <p id="disclaimer">
-	Disculpe, su navegador es antiguo y no soporta transformaciones 3D, actalícelo y disfrute de Internet de última generación
+	Disculpe, su navegador es antiguo y no soporta transformaciones 3D, actalícelo y disfrute Internet de última generación.
   </p>
 
-  <footer>
+  <footer class="footer-home">
 	  <p><a href="index.html">REVOLUTION</a> Remeras Revolucionarias</p>
 	  <p>Córdoba, Argentina</a>.
 		  <a href="contacto.html">Contacto</a>.</p>
-	  <p>Desarrollado por <a href="http://pandawebs.net"> Pandawebs</a></p>
+	  <p>Desarrollado por <a href="http://pandawebs.net" target="link"> Pandawebs</a></p>
 	  <div class="emprende">
 
 <figure class="mapa">

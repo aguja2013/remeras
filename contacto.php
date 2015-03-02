@@ -16,7 +16,7 @@ if ($_POST['submit']) {
 if (mail($para, $titulo, $msjCorreo, $header)) {
 echo "<script language='javascript'>
 alert('Mensaje enviado, muchas gracias.'); 
-window.location.href = 'http://revolution.aguja2013.com/contacto.html';
+window.location.href = 'http://revolution.aguja2013.com/pago.html';
 </script>";
 } else {
 echo 'Falló el envio';
