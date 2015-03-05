@@ -100,6 +100,9 @@ $('.l').click(function () {
     $(".test2").val("Talle L    $200");    
 });
 	
+	
+	
+
 function apareceRemera1() {
 		$rem1.slideDown(500);
 		$rem2.css('display','none' );
@@ -116,7 +119,7 @@ function apareceRemera1() {
 		$rem13.css('display','none' );
 		$rem14.css('display','none' );
 		$rem15.css('display','none' );
-		$mod1.slideDown(500);		
+				
 };
 function apareceRemera2() {
 		$rem2.slideDown(500);
@@ -155,7 +158,7 @@ function apareceRemera3() {
 		$rem14.css('display','none' );
 		$rem15.css('display','none' );
 		$rem3.slideDown(500);
-$mod3.slideDown(500);		
+	
 };
 function apareceRemera4() {
 		$rem1.css('display','none' );

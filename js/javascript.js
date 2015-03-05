@@ -1,4 +1,4 @@
-﻿var $btnEntrar = $ ('.entrar');
+﻿var $btnEntrar = $('.entrar');
 
 
 

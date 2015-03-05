@@ -29,3 +29,33 @@
 	
 }
 
+@media screen and (min-width:0\0) {    
+	.icon-woman_power.exp-home:before {		
+		font-size: 32rem;		
+	}	
+} 
+
+@media screen and (min-width:0\0) and (max-width: 1200px) {
+		.icon-woman_power.exp-home:before {		
+		font-size: 24rem;		
+	}	
+}
+@media screen and (min-width:0\0) and (max-width: 740px) {
+		.icon-woman_power.exp-home:before {		
+		font-size: 18rem;		
+	}	
+}
+@media screen and (min-width:0\0) and (max-width: 580px) {
+		.icon-woman_power.exp-home:before {		
+			margin-top: 5rem;
+			display: block;			
+		}	
+		.icon-woman_power.exp-home:before {		
+		font-size: 10rem;		
+	}	
+		header {
+			padding-left: 0
+		
+		}
+}
+

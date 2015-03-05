@@ -99,7 +99,7 @@ button {
 footer {
   border-top: 1px solid #CCC;
   font-size: 0.8em;
-  position: relative;
+ /*  position: relative; */
   z-index: 100;
 }
 
@@ -199,7 +199,9 @@ body.doc { max-width: 900px; }
 .back {
 	margin-top: 17px
 }
-
+.back-ch {
+	margin-top: 8px
+}
 
 .modelo1, .modelo2, .modelo3 {
 	display: none;
@@ -318,16 +320,24 @@ form.fuente-mas, form.fuente-mas2 {
 	}
 	.confirmacion-frente2, .confirmacion-atras2, form.fuente-mas2 {
 	display: inline-block;
+	vertical-align: top;
 	}
+	
+	
 	.confirmacion-frente2, .confirmacion-atras2{
-		margin-right: 5rem;
+		margin-right: 1rem;
+	}
+	.confirmacion-frente2 {
+		padding-top: .5rem
 	}
 	.confirmacion-frente, .confirmacion-atras, form.fuente-mas {
 	display: none;
 	}
+	
 	.comprar3 {
 		background: orange;
 		color: white;
+		
 		font-size: 2.5rem;
 		margin-left:3rem;
 		margin-top: 2rem;
@@ -336,6 +346,15 @@ form.fuente-mas, form.fuente-mas2 {
 		vertical-align: top;
 		
 }
+}
+@media screen and (max-width: 1230px) {
+
+.oculto input {
+		font-size: 1.7rem;
+		display: block;	
+		width: 100%;		
+	}
+
 }
 @media screen and (max-width: 785px) {
 	form.fuente-mas2 {
@@ -349,23 +368,31 @@ form.fuente-mas, form.fuente-mas2 {
 		display: block;	
 		width: 100%;		
 	}
-	
+	.confirmacion-frente2, .confirmacion-atras2{
+		margin-right: 0;
+		
+	}
+		.oculto2 .comprar3 {
+margin: 0;
 }
 @media screen and (max-width: 500px) {
 	.close {		
-		bottom: -2rem;
+		bottom: 2rem;
 		width: 50%;
 		
 }
 
 .confirmacion {
-	top: 1rem;
+	top: 0;
+	padding: 0;
 }
 .fuente-mas2 input {	
 		font-size: 1.4rem;
 		
 		
 }
-}
+
+
+}}
 
 
